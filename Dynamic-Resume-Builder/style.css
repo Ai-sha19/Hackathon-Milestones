@@ -1,0 +1,116 @@
+/* * {
+    margin: 0%;
+    padding: 0%;
+} */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background: linear-gradient(to bottom, #352840, 80%, #483D55);
+
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transition: 3s;
+    padding: 20px;
+    border: 2px solid #352840;
+
+}
+
+fieldset {
+    border: 2px solid #aa32c5;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #35284023;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: #2c3e50;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+input,
+textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #aa32c5;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to bottom, #352840, 80%, #483D55);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background: #aa32c5;
+    color: white;
+}
+
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: #352840;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+#resumeOutput h2 {
+    background-color: white;
+    color: #352840;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+#resumeOutput h3 {
+    background-color: white;
+    color: #352840;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+
+#resumeOutput p {
+    color: #E2E0E4;
+    font-size: 15px;
+    font-family: sans-serif;
+}
